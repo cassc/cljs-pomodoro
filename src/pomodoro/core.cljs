@@ -38,7 +38,7 @@
           (pos? remain)
           (do
             (<! (timeout 1000))
-            (when (:current @config-state) ;; double check
+            (when (and (not (:pause @config-state)) (:current @config-state)) ;; double check
               (swap! config-state assoc :remain (- remain 1000))))
 
           :else
