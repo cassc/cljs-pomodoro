@@ -1,0 +1,105 @@
+body{
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:sans-serif;
+}
+
+h3{
+    font-size: 3em;
+    font-family: fantasy;
+}
+
+div.pomo-main{
+    text-align:center;
+}
+
+div.row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.session{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.timeset{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+div.timeset-btn {
+    margin: 5px;
+    font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+div.timeset-btn button{
+    color: white;
+    border-style: none;
+    background-color: #333;
+    font-size: 2em;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;
+}
+
+div.timeset-btn span{
+    font-size: 2em;
+}
+
+div.timeset-btn a{
+    text-decoration: none;
+}
+
+button.minus{
+    margin-top: -3px;
+}
+
+div.session p{
+    font-size: 40px;
+}
+
+div.session div{
+    font-size: 60px;
+}
+
+div.session-container{
+    position:relative;
+    width: 250px;
+    height: 250px;
+    display:inline-block;
+    border-style:solid;
+    border-color: green;
+    border-width: 3px;
+    border-radius: 50%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    cursor: pointer;
+}
+
+
+div.session.overlay{
+    background-color: #333;
+}
+
+span.fill {
+    position: absolute;
+    background-color: rgb(153, 204, 0);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    z-index: 1;
+}
+
+
+button.reset{
+    width: 100px;
+    font-weight:bold;
+    font-size: 28px;
+    border-radius: 5px;
+    box-shadow: inset -5px 5px 5px rgba(255, 255, 255, 0.15), inset 5px -5px 5px rgba(0, 0, 0, 0.15);
+}
