@@ -2,7 +2,7 @@
 
 A pomodoro written in ClojureScript.
 
-Styles are copied from [this](http://codepen.io/FreeCodeCamp/full/zrRzMR).
+Styles are copied from [this](http://codepen.io/FreeCodeCamp/full/VemPZX).
 
 
 ## Usage
